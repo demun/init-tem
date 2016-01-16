@@ -1,0 +1,4 @@
+{
+  "src/name.js": "src/jquery.{%= name %}.js",
+  "test/name.html": "test/{%= name %}.html"
+}
