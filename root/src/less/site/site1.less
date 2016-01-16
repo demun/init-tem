@@ -1,0 +1,59 @@
+/* 
+---------------------------------------------------------------
+*
+* site1
+*
+---------------------------------------------------------------
+*/
+
+// layout
+.wrapper {
+	width: @wrapper-width;
+	margin: 0 auto;
+	.clearfix();
+}
+
+.header {
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	background-color: #f1f1f1;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		.clearfix();
+
+		li {
+			float: left;
+
+			a {
+				display: block;
+				float: left;
+				background-color: #333;
+				color: #fff;
+				padding: 10px 20px;
+
+				&:hover {
+					background-color: lighten(#333, 10%);
+				}
+			}
+		}
+	}
+}
+
+.main {
+	h1 {
+		background: url('@{img-url}icon-arrow-right-black.gif') no-repeat left 19px;
+		padding-left: 10px;
+	}
+}
+
+.footer {
+	background-color: #333;
+	color: #fff;
+	padding-top: 10px;
+	padding-bottom: 30px;
+}
+
